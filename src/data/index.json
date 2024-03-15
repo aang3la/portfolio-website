@@ -1,0 +1,22 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "source": "./img/front-end.jpeg",
+            "title": "Front-End",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "2",
+            "source": "./img/back-end.jpeg",
+            "title": "Back-End",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "3",
+            "source": "./img/back-end.jpeg",
+            "title": "Marketing",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+        }
+    ]
+}
