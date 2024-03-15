@@ -6,7 +6,13 @@ body {
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -81,7 +87,6 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: var(--white);
 }
 
-
 h1 {
   font-size: 56px;
   font-weight: 700;
@@ -95,110 +100,147 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
 }
 
-
 .text-lg {
-    color: var(--darkblue);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .text-md {
-    color: var(--darkblue);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
+  color: var(--darkblue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
 }
 
 .text-sm {
-    color: var(--black);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
+  color: var(--black);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
-
 
 .section-title {
-    color: var(--heading-color);
-    font-size: 21px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
-    display: flex;
-    align-items: flex-start;
+  color: var(--heading-color);
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
 }
-
-
 
 .sub-title {
-    color: var(--heading-color);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
 }
 
+/* NavBar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 85.33px;
+  background: var(--white);
+  box-shadow: 0px 5.333px 88px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
+.navbar-items > ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 42.667px;
+  text-decoration: none;
+}
+
+.navbar-items > ul > li > a {
+  text-decoration: none;
+}
+
+.navbar-content {
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.navbar-active-content {
+  color: var(--primary);
+}
+
+/* Hero section */
 .hero-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 133px 120px 133px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 200px;
-    background-color: var(--bg-shade);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 133px 120px 133px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  background-color: var(--bg-shade);
 }
 
 .hero-section-content-box {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
 }
 
 .hero-section-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 21.333px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.333px;
 }
 
 .hero-section-content-box > button {
-    margin-top: 21.333px;
+  margin-top: 21.333px;
 }
 
 .hero-section-title {
-    color: var(--heading-color);
-    font-size: 74.667px;
-    font-weight: 700;
-    line-height: 90px;
-    align-self: stretch;
+  color: var(--heading-color);
+  font-size: 74.667px;
+  font-weight: 700;
+  line-height: 90px;
+  align-self: stretch;
 }
 
 .hero-section-title-color {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .hero-section-title-description {
-    color: var(--darkblue);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
+  color: var(--darkblue);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
 }
 
 .hero-section-img {
-    display: flex;
+  display: flex;
 }
 
 .hero-section-img > img {
-    width: 380px;
-    height: 600px;
+  width: 380px;
+  height: 600px;
 }
+
+
