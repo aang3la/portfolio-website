@@ -18,5 +18,28 @@
             "title": "Marketing",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
         }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "source": "./img/front-end.jpeg",
+            "title": "Stock Dolphin",
+            "description": "Innovative Inventory System designed to revolutionize the way offices manage and stock their supplies.",
+            "link": "View in Github"
+        },
+        {
+            "id": "2",
+            "source": "./img/back-end.jpeg",
+            "title": "Office Chat App",
+            "description": "Server-side social media application where people can write posts and share some information.",
+            "link": "View in Github"
+        },
+        {
+            "id": "3",
+            "source": "./img/back-end.jpeg",
+            "title": "ACode",
+            "description": "Official website example for an IT Company created with HTML and CSS.",
+            "link": "View in Github"
+        }
     ]
 }
