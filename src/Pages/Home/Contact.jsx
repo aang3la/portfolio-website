@@ -5,8 +5,7 @@ const Contact = () => {
         <p className="sub-title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni,
-          tempore.
+        Feel free to reach out to me through the contact form for any inquiries.
         </p>
       </div>
       <form className="contact-form-container">
@@ -44,7 +43,7 @@ const Contact = () => {
           <label htmlFor="phone-number" className="contact-label">
             <span className="text-md">Phone number</span>
             <input
-              type="number"
+              type="phone"
               className="contact-input text-md"
               name="phone-number"
               id="phone-number"

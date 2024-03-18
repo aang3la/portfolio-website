@@ -9,7 +9,7 @@ const Skills = () => {
                 {data.skills.map((item, i) => (
                     <div key={i} className="skills-section-card">
                         <div className="skills-section-img">
-                            <img src={item.source} alt="front-end-icon" />
+                            <img src={item.source} width={200} />
                         </div>
                         <div className="skills-section-card-content"> 
                             <h3 className="skills-section-title">{item.title}</h3>

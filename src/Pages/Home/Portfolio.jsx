@@ -9,7 +9,9 @@ const Portfolio = () => {
           <h2 className="section-heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">Visit My GitHub</button>
+          <button className="btn btn-github">
+            <a href="https://github.com/aang3la" target="_blank">Visit My GitHub</a>
+            </button>
         </div>
       </div>
       <div className="portfolio-section-container">

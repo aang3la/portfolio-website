@@ -2,41 +2,41 @@
     "skills": [
         {
             "id": "1",
-            "source": "./img/front-end.jpeg",
+            "source": "./img/frontend.jpg",
             "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+            "description": "I specialize in creating engaging user experiences through HTML5, CSS, and JavaScript. My expertise includes developing responsive and intuitive interfaces using the framework React, ensuring seamless navigation and visual appeal."
         },
         {
             "id": "2",
-            "source": "./img/back-end.jpeg",
+            "source": "./img/backend.jpg",
             "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+            "description": "With proficiency in Node.js, Express.js, and MongoDB, I excel at building backend systems that power dynamic web applications. My skills in server-side programming and API development contribute to scalable and efficient backend solutions."
         },
         {
             "id": "3",
-            "source": "./img/back-end.jpeg",
+            "source": "./img/marketing.jpg",
             "title": "Marketing",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+            "description": "I have a strong background in market research, campaign optimization, and social media management. My expertise extends to creating Google research with keyword analysis, SEO, analyzing data for insights, and creating effective marketing strategies."
         }
     ],
     "portfolio": [
         {
             "id": "1",
-            "source": "./img/front-end.jpeg",
+            "source": "./img/stock_dolphin.png",
             "title": "Stock Dolphin",
             "description": "Innovative Inventory System designed to revolutionize the way offices manage and stock their supplies.",
             "link": "View in Github"
         },
         {
             "id": "2",
-            "source": "./img/back-end.jpeg",
+            "source": "./img/office_chatapp.png",
             "title": "Office Chat App",
             "description": "Server-side social media application where people can write posts and share some information.",
             "link": "View in Github"
         },
         {
             "id": "3",
-            "source": "./img/back-end.jpeg",
+            "source": "./img/office_chatapp.png",
             "title": "ACode",
             "description": "Official website example for an IT Company created with HTML and CSS.",
             "link": "View in Github"
