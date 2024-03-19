@@ -1,5 +1,6 @@
 import AboutMe from "../AboutMe";
 import Contact from "../Contact";
+import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import Portfolio from "../Portfolio";
 import Skills from "../Skills";
@@ -12,6 +13,7 @@ const Home = () => {
         <AboutMe />
         <Portfolio />
         <Contact />
+        <Footer />
     </>
   )
 }
