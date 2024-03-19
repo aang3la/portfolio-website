@@ -415,6 +415,11 @@ h3 {
   font-weight: 600;
 }
 
+.portfolio-link > a {
+  text-decoration: none;
+  color: var(--black);
+}
+
 .portfolio-section-card:hover path {
   stroke: var(--github);
 }

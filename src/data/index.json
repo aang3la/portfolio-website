@@ -25,21 +25,21 @@
             "source": "./img/stock_dolphin.png",
             "title": "Stock Dolphin",
             "description": "Innovative Inventory System designed to revolutionize the way offices manage and stock their supplies.",
-            "link": "View in Github"
+            "link": "https://github.com/aang3la/Stock_Dolphin"
         },
         {
             "id": "2",
             "source": "./img/office_chatapp.png",
             "title": "Office Chat App",
             "description": "Server-side social media application where people can write posts and share some information.",
-            "link": "View in Github"
+            "link": "https://github.com/aang3la/Office-ChatApp"
         },
         {
             "id": "3",
             "source": "./img/acode.png",
             "title": "ACode",
             "description": "Official website example for an IT Company created with HTML and CSS.",
-            "link": "View in Github"
+            "link": "https://github.com/aang3la/ACode-ITcompany"
         }
     ]
 }

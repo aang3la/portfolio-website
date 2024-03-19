@@ -26,7 +26,7 @@ const Portfolio = () => {
                 <p className="portfolio-section-description">{item.description}</p>
               </div>
               <p className="text-sm portfolio-link">
-                  {item.link}
+                  <a href={item.link} target="_blank">View In GitHub</a>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
