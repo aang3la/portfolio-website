@@ -254,7 +254,7 @@ h3 {
 /* Skills section */
 .skills-section {
   display: flex;
-  padding: 50px 85px;
+  padding: 80px 85px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -518,7 +518,7 @@ h3 {
   }
   .skills-section-title {
     font-size: 25px;
-    line-height: 40px;
+    line-height: 60px;
   }
 }
 
@@ -531,7 +531,7 @@ h3 {
     gap: 16px;
   }
   .skills-section-card {
-    gap: 28px;
+    gap: 25px;
   }
   .skills-section-card-content {
     gap: 20px;
@@ -546,7 +546,7 @@ h3 {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 770px)  {
+@media only screen and (max-width: 770px)  {
   .btn-outline-primary {
     display: none;
   }
@@ -554,6 +554,7 @@ h3 {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 70px;
+    width: 100%;
   }
   .hero-section-title,
   .hero-section-description,
@@ -575,6 +576,7 @@ h3 {
   .hero-section-content,
   .hero-section-content-box {
     align-items: center;
+    width: 100%;
   }
   .portfolio-container-box {
     gap: 30px;
@@ -590,6 +592,7 @@ h3 {
     gap: 20px;
     padding-top: 0;
     padding-bottom: 0;
+    width: 100%;
   }
   .hero-section-title,
   .skills-section-heading,
@@ -602,6 +605,12 @@ h3 {
   }
   .contact-form-container {
     width: 100%;
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
   }
   .container {
     display: flex;
@@ -640,7 +649,6 @@ h3 {
 @media screen and (max-width: 770px) {
   .nav_hamburger {
     display: flex;
-    z-index: 200;
   }
   .navbar-items {
     display: flex;
@@ -678,11 +686,9 @@ h3 {
   .nav_hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
   }
-
   .nav_hamburger.active :nth-child(2) {
     opacity: 0;
   }
-
   .nav_hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
